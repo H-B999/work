@@ -138,10 +138,10 @@ html = '''<div id="songs-list">
 # print(response.text)
 
 
-import httpx
-
-with httpx.Client(http2=True) as clinet:
-    response = clinet.get('https://www.httpbin.org/get')
-    print(response.http_version)
+# import httpx
+#
+# with httpx.Client(http2=True) as clinet:
+#     response = clinet.get('https://www.httpbin.org/get')
+#     print(response.http_version)
 
 
