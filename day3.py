@@ -144,4 +144,5 @@ html = '''<div id="songs-list">
 #     response = clinet.get('https://www.httpbin.org/get')
 #     print(response.http_version)
 
-
+for i in range(1, 2):
+    print(i)
